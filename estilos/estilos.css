@@ -1,7 +1,43 @@
 body {
-    padding-top: 70px; 
+    padding-top: 70px;
+    background-color: rgb(241, 233, 228);
 }
 
-button{
-    background-color: rgb(114, 79, 47);
+.container {
+    background-color: rgb(163, 126, 97);
+}
+
+footer{
+    background-color: rgb(163, 126, 97);
+}
+
+.btn {
+    background-color: rgb(241, 233, 228);
+    color: rgb(163, 126, 97);
+}
+
+.enunciado{
+    color:rgb(163, 126, 97);
+}
+
+.card-title{
+    color: rgb(163, 126, 97);
+}
+
+.titulo-caja {
+    color: white;
+}
+
+.container-fluid {
+    background-color: rgb(163, 126, 97);
+}
+
+.nav-link{
+color:white;
+}
+
+.item{
+    color:white;
+    vertical-align:middle;
+    text-decoration: none;
 }
