@@ -108,3 +108,17 @@ hr {
     background-color: rgb(163, 126, 97);
 
 }
+
+img:hover {
+    transform: scale(1.1);
+    box-shadow: 10px 10px 12px 0px rgba(184, 184, 184, 1);
+    transition: all 0.3s ease;
+}
+
+
+
+body {
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-style: normal;
+}
