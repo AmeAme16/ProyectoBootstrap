@@ -7,9 +7,6 @@ body {
     background-color: rgb(163, 126, 97);
 }
 
-footer {
-    background-color: rgb(163, 126, 97);
-}
 
 .btn {
     background-color: rgba(241, 233, 228, 0.9);
@@ -62,7 +59,7 @@ a:hover {
     transition: all 0.3s ease;
 }
 
-.background-image {
+.fondo {
     position: relative;
     background-image: url('../images/fondo.jpg');
     background-size: cover;
@@ -78,12 +75,36 @@ a:hover {
 
 }
 
-.text-content {
+.texto {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
     text-align: center;
+
+}
+
+.cajaInstalaciones {
+    background-color: white;
+    color: rgb(163, 126, 97);
+
+}
+
+.map-container {
+    display: flex;
+    align-items: center;
+}
+
+.map-iframe {
+    border: 0;
+    border-radius: 50%;
+
+    overflow: hidden;
+}
+
+hr {
+    height: 4px;
+    background-color: rgb(163, 126, 97);
 
 }
